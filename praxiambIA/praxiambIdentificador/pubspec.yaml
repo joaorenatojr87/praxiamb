@@ -1,4 +1,5 @@
-name: myapp
+name: objdetection
+
 description: A flutter app to demonstrate usage of tensor flow lite ML.
 
 version: 1.0.0+1
@@ -9,13 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-
   tflite: ^1.0.5
-  percent_indicator: ^2.1.1+1
   camera: ^0.5.7+4
 
 dev_dependencies:
@@ -28,5 +24,5 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/model_unquant.tflite
-    - assets/labels.txt
+    - assets/ssd_mobilenet.tflite
+    - assets/ssd_mobilenet.txt
