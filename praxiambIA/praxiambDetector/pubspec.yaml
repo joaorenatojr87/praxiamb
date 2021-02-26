@@ -1,0 +1,28 @@
+name: objdetection
+
+description: A flutter app to demonstrate usage of tensor flow lite ML.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  tflite: ^1.0.5
+  camera: ^0.5.7+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/ssd_mobilenet.tflite
+    - assets/ssd_mobilenet.txt
